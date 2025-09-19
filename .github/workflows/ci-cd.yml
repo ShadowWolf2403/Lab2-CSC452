@@ -1,4 +1,4 @@
-name: Simple CI/CD Workflow
+name: 
 
 on:
   push:
@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: webpage
-          path: .github/workflows/ci-cd.yml
+          path: index.html
